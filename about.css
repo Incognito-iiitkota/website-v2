@@ -1,0 +1,79 @@
+/*CSS RESET*/
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: quicksand;
+}
+
+/*NAVBAR*/
+
+.left{
+	margin-right: 380px;
+	margin-bottom: 35px;
+}
+.right{
+	margin-top: 30px;
+}
+
+.navbar{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 18px;
+}
+.nav{
+	display: flex;
+}
+.nav li{
+	list-style: none;
+	padding: 0px 30px;
+}
+.nav li a{
+	text-decoration: none;
+	font-family: Quicksand;
+	color: black;
+	font-size: 13px;
+	/*font-weight: 700;*/
+}
+
+
+
+#part1{
+	position: absolute;
+	width: 813px;
+	height: 189px;
+	left: 314px;
+	top: 240px;
+	
+	font-family: 'Quicksand';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 120.7%;
+	/* or 21px */
+	
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: capitalize;
+	
+	color: #707070;
+}
+#part2{
+	position: absolute;
+	width: 724px;
+	height: 108px;
+	left: 358px;
+	top: 504px;
+	
+	font-family: 'Quicksand';
+	/*font-style: normal;
+	font-weight: 400;*/
+	font-size: 20px;
+	line-height: 272.7%;
+	/* or 51px */
+	
+	text-align: center;
+	letter-spacing: 0.2525em;
+	
+	color: #000000;
+}

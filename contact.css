@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-image: url(Vector\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.card{
+    display: flex;
+    margin: 70px auto;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 877px;
+    height: 514px;
+    flex-direction: column;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 877px;
+    height: 514px;
+    margin-top: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 582px;
+}
+
+.input{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 50px;
+    margin: 50px 0;
+}
+
+.input input{
+    border:  1px #FFFFFF solid;
+    font-size: 16px;
+    border-bottom: #C4C4C4 solid 2px;
+    
+}
+
+.input input:focus{
+    outline: none;
+}
+
+.form form textarea{
+    border-radius: 3px;
+    border: solid 2px #C4C4C4;
+    resize: none;
+    /* To do 
+    change the font  */
+}
+
+.form form textarea:focus{
+    outline: none;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 295px;
+    height: 514px;
+    background-color: #d03b3b;
+    border-radius: 20px;
+    color: #C4C4C4;
+}
+
+.info p, div{
+    height: 50px;
+    width: 250px;
+    font-size: 17px;
+}
+
+.phone{
+    display: flex;
+    flex-direction: column;
+}
+
